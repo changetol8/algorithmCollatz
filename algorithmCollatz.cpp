@@ -20,7 +20,7 @@ long long algCollatz(long long number) {
         return algCollatz(number);
     }
     else {
-        cout << "Number must be greater than 2" << endl;
+        cout << "Number must be greater than or equal 2" << endl;
     }
 }
 
